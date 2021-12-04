@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/lago.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+};
+
+#fname,
+#lname,
+#email,
+#phone,
+#message {
+    background: #f9fafa;
+    
+};
+
+#titulo {
+    color: rgb(240, 235, 240);
+}
+
+
+
+.card {
+    background: rgb(245, 241, 241);
+    margin-top: 5%;
+    min-width: 40vh;
+    min-height: 60vh;
+    border-radius: 9px;
+background: #f8fcf9;
+box-shadow:  -44px 44px 100px #f6f9f7,
+             44px -44px 100px #fafffb;
+}
+
+#boton {
+    background-color: transparent;
+    transition: background-color .5s ;
+    border: 2px solid #f8fcf9 ;
+    
+    
+}
+#boton:hover{
+   background-color: rgb(21, 154, 216);
+   text-transform: uppercase;
+}
